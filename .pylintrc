@@ -1,0 +1,12 @@
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    bad-continuation,
+    line-too-long,
+    wrong-import-order, # pylint doesn't like isort's sorting
+    too-few-public-methods # pylint doesn't like pydantic's models
+
+good-names=a,b,c,f,i,j,k,v,x,y,z,p,id,getConfig,getLogger,T
+
+[master]
+extension-pkg-whitelist = pydantic
